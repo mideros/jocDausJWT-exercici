@@ -12,9 +12,6 @@ El software ha de permetre llistar tots els jugadors que hi ha al sistema, el pe
 
 El software ha de respectar els principals patrons de disseny.
 
-Fase 3
-Afegix seguretat: inclou autenticació per JWT en tots els accessos a les URL de l'microservei. 
-
 NOTES -> Has de tindre en compte els següents detalls de construcció:
 
 URL’s:
@@ -36,9 +33,5 @@ GET /players/ranking: retorna el ranking mig de tots els jugadors del sistema. �
 GET /players/ranking/loser: retorna el jugador amb pitjor percentatge d’èxit
 
 GET /players/ranking/winner: retorna el jugador amb pitjor percentatge d’èxit
-
-Fase 1 -> Persistència: utilitza com a base de dades mysql
-
-Fase 2 -> Canvia la configuració i utilitza MongoDB per persistir les dades
 
 Fase 3 -> Afegix seguretat: inclou autenticació per JWT en tots els accessos a les URL de l'microservei.
